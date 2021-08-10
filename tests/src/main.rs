@@ -202,6 +202,7 @@ async fn main() -> Result<()> {
             diffoscope: None,
             log: String::new(),
             status: BuildStatus::Bad,
+            attestation: None,
         };
         let report = BuildReport {
             queue,
@@ -279,6 +280,7 @@ async fn main() -> Result<()> {
             diffoscope: None,
             log: String::new(),
             status: BuildStatus::Good,
+            attestation: None,
         };
         let report = BuildReport {
             queue,
